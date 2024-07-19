@@ -1,7 +1,11 @@
 window.onload = function myLoadFunction() {
 	alert("The website just finished loading!");
-	// Some code here
+	let cualquierNombre = document.getElementById("theGreen");
+	cualquierNombre.addEventListener("click", nuevoNombre);
 	
 };
 
-// The listener function here
+// The listewindow.eventListener = function eventListener(){
+function nuevoNombre() {
+	alert("woohoo!");
+}
